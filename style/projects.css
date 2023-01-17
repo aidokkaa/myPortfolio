@@ -1,0 +1,114 @@
+.projects{
+    width: 100%;
+    background-color:  black;
+    display: flex;
+    justify-content: space-around; 
+}
+
+ .projects h2{
+    color: aliceblue;
+    margin-top: 200px;
+    font-size: 54px;
+    letter-spacing: 2px;
+}
+.slider{
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.slider-line{
+    display: flex;
+    transition: all 1s;position: relative;
+}
+.slider-img{
+    width: 400px;
+    margin-bottom: 10px;
+    height: 400px;
+}
+.slider__btn-prev{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%) ;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    line-height: 1;
+    border: 1px solid white;
+
+}
+.slider__btn-next{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    line-height: 1;
+    border: 0.5px solid white;
+    
+}
+.slider__btn-next img{
+    width: 40px;
+    cursor: pointer;
+}
+.slider__btn-prev img{
+    width: 40px;
+    cursor: pointer;
+}
+.class1 a{
+    padding: 10px 32px;
+    border: 2px solid white;
+    margin: 15px auto;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.class2 a{
+    padding: 10px 32px;
+    border: 2px solid white;
+    margin: 15px auto;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.class2 .slider-img{
+    width: 400px;
+    height: 400px;
+}
+.class3 a{
+    padding: 10px 32px;
+    border: 2px solid white;
+    margin-left: 150px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.class1, .class2, .class3  h1{
+   text-align: center;
+   margin-bottom: 30px;
+   color: yellow;
+}
+@media(max-width:990px){
+    .projects{
+        flex-wrap: wrap;
+    }
+    .class1{
+        width: 100%;
+    }
+    .projects h2{
+        font-size:30px;
+    }
+    .slider{
+        width: 250px;
+    }
+    .slider-img{
+        width: 250px;
+    }
+}

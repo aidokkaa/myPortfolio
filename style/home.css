@@ -1,0 +1,67 @@
+.video-bg{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.video-bg video{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  
+}
+ .video-bg_content{
+    z-index: 2;
+
+ } 
+ .back{
+    color: aliceblue;
+ }
+ .burgers{
+    width: 270px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+ }
+ .burgers img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 30px;
+ }
+ .video-bg_content h1,h5,h4,h3,p{    
+   color: white;
+ }
+ .video-bg_content p{
+   color: white;
+   text-decoration: solid;
+   font-size: 60px;
+   letter-spacing: 2px;
+ }
+ .video-bg_content h3{
+   color: white;
+   text-decoration: solid;
+   font-size: 50px;
+ }
+ .video-bg_content h4{
+   color: white;
+   text-decoration: solid;
+   font-size: 45px;
+ }
+ .video-bg_content h5{
+   color: white;
+   text-decoration: solid;
+   font-size: 35px;
+ }
+ @media(max-width:990px){
+  .video-bg_content ,p{
+    font-size: 19px;
+  }
+ }
+ 
